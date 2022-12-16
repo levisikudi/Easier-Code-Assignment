@@ -1,0 +1,46 @@
+ *{
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    grid-template-columns:34% 66% ;
+    grid-template-rows: repeat(2, 12.5%) repeat(3, 25%);
+    background-color: rgb(182, 207, 229);
+    font-size: 1.2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+h1{
+    grid-column: 1/ span 2;
+}
+h1, h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.nav-cover{
+    grid-column: span 2;
+}
+nav{
+    
+    display: flex;
+    justify-content: space-around;
+    color: azure;
+    background-color: rgb(114, 170, 114);
+    align-items: center;
+    padding: 10px;
+    font-size: 1.1em;
+}
+.intro{
+    grid-column: span 2;
+    display: flex;
+    justify-content: space-between;
+}
+
+section p{
+    margin: 0 10px;
+}
+.attributes{
+    grid-column: span 2;
+}
+.location{
+    grid-column: span 2;
+} 
